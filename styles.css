@@ -1,43 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Creative CSS Styling Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
 
-<body>
+header {
+    background-color: #e69eba;
+    padding: 20px;
+}
 
-    <header>
-        <h1>Creative CSS Styling Project</h1>
-        <p>Transforming simple HTML into visually engaging web pages using CSS</p>
-    </header>
+nav {
+    background-color: #ca6b8f;
+    padding: 10px;
+}
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page2.html">About</a></li>
-            <li><a href="page3.html">Contact</a></li>
-        </ul>
-    </nav>
+li {
+    display: inline-block;
+    width: 120px;
+}
 
-    <main>
-        <h2>Welcome</h2>
-        <p>
-            This website demonstrates how Cascading Style Sheets (CSS) can dramatically
-            change the look and feel of a webpage without altering its HTML structure.
-        </p>
+main {
+    background-color: #ffffff;
+    font-size: 1rem;
+    padding: 20px;
+}
 
-        <p>
-            By applying different colors, fonts, spacing, and layouts, the same content
-            can be presented in many unique and accessible ways.
-        </p>
-    </main>
+footer {
+    background-color: #e08eb4;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
 
-    <footer>
-        <p>© 2026 Creative CSS Project | Designed for Learning and Accessibility</p>
-    </footer>
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
 
-</body>
-</html>
+p {
+    line-height: 1.6;
+}
